@@ -6,6 +6,8 @@
 
 ## Information
 
+This is a fork of jorrit/gulp-requirejs mainly to add back support for node 0.10
+
 A small, simple, very easy wrapper around the [require.js optimizer](https://github.com/jrburke/r.js) to work with [gulp.js](https://github.com/gulpjs/gulp)
 
 <table>
