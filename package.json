@@ -2,11 +2,12 @@
   "name": "gulp-rjs-optimizer",
   "description": "Builds projects using require.js's optimizer",
   "version": "0.3.0",
-  "author": "Jorrit Schippers (https://www.ncode.nl/)",
+  "author": "Donatas Mačiūnas",
   "bugs": "https://github.com/mdonatas/gulp-rjs-optimizer/issues",
   "contributors": [
     "Robin Thrift <thrift.d.robin@googlemail.com> (http://webbrickworks.com/)",
-    "Jorrit Schippers (https://www.ncode.nl/)"
+    "Jorrit Schippers (https://www.ncode.nl/)",
+    "Donatas Mačiūnas"
   ],
   "dependencies": {
     "event-stream": "^3.3.4",
