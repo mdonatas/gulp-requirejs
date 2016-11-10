@@ -1,7 +1,7 @@
 {
   "name": "gulp-rjs-optimizer",
   "description": "Builds projects using require.js's optimizer",
-  "version": "0.3.0",
+  "version": "0.1.0",
   "author": "Donatas Mačiūnas",
   "bugs": "https://github.com/mdonatas/gulp-rjs-optimizer/issues",
   "contributors": [
