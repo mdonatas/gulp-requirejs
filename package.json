@@ -1,9 +1,9 @@
 {
-  "name": "gulp-requirejs",
+  "name": "gulp-rjs-optimizer",
   "description": "Builds projects using require.js's optimizer",
   "version": "0.3.0",
   "author": "Jorrit Schippers (https://www.ncode.nl/)",
-  "bugs": "https://github.com/jorrit/gulp-requirejs/issues",
+  "bugs": "https://github.com/mdonatas/gulp-rjs-optimizer/issues",
   "contributors": [
     "Robin Thrift <thrift.d.robin@googlemail.com> (http://webbrickworks.com/)",
     "Jorrit Schippers (https://www.ncode.nl/)"
@@ -20,13 +20,13 @@
   "engines": {
     "node": ">= 4"
   },
-  "homepage": "https://github.com/jorrit/gulp-requirejs",
+  "homepage": "https://github.com/mdonatas/gulp-rjs-optimizer",
   "keywords": [],
   "license": "MIT",
   "main": "./index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jorrit/gulp-requirejs.git"
+    "url": "https://github.com/mdonatas/gulp-rjs-optimizer.git"
   },
   "scripts": {
     "test": "mocha"

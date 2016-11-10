@@ -5,7 +5,7 @@ var gutil       = require('gulp-util'),
     es          = require('event-stream')
 
 // Consts
-const PLUGIN_NAME = 'gulp-requirejs';
+const PLUGIN_NAME = 'gulp-rjs-optimizer';
 
 
 module.exports = function(opts) {

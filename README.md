@@ -1,8 +1,8 @@
-#gulp-requirejs
+#gulp-rjs-optimizer
 
-[![gulp-requirejs on npm](https://img.shields.io/npm/v/gulp-requirejs.svg?style=flat)](https://www.npmjs.com/package/gulp-requirejs)
-[![Dependency Status](https://david-dm.org/jorrit/gulp-requirejs.png)](https://david-dm.org/jorrit/gulp-requirejs)
-[![Build Status](https://travis-ci.org/jorrit/gulp-requirejs.png?branch=master)](https://travis-ci.org/jorrit/gulp-requirejs)
+[![gulp-rjs-optimizer on npm](https://img.shields.io/npm/v/gulp-rjs-optimizer.svg?style=flat)](https://www.npmjs.com/package/gulp-rjs-optimizer)
+[![Dependency Status](https://david-dm.org/mdonatas/gulp-rjs-optimizer.png)](https://david-dm.org/mdonatas/gulp-rjs-optimizer)
+[![Build Status](https://travis-ci.org/mdonatas/gulp-rjs-optimizer.png?branch=master)](https://travis-ci.org/mdonatas/gulp-rjs-optimizer)
 
 ## Information
 
@@ -10,7 +10,7 @@ A small, simple, very easy wrapper around the [require.js optimizer](https://git
 
 <table>
 <tr>
-<td>Package</td><td>gulp-requirejs</td>
+<td>Package</td><td>gulp-rjs-optimizer</td>
 </tr>
 <tr>
 <td>Description</td>
@@ -25,10 +25,10 @@ A small, simple, very easy wrapper around the [require.js optimizer](https://git
 
 ##Installation
 
-Simply add `gulp-requirejs` as a dev-dependency in your package.json or run
+Simply add `gulp-rjs-optimizer` as a dev-dependency in your package.json or run
 
 ```bash
-$ npm install --save-dev gulp-requirejs
+$ npm install --save-dev gulp-rjs-optimizer
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ The resulting stream can be treated like a regular `gulp.src(...)` stream.
 
 ```javascript
 var gulp = require('gulp'),
-    rjs = require('gulp-requirejs');
+    rjs = require('gulp-rjs-optimizer');
 
 gulp.task('requirejsBuild', function() {
     return rjs({
@@ -60,7 +60,7 @@ Note: In order to let gulp know that the optimization completes, return the rjs 
 
 ### Error handling
 
-gulp-requirejs will emit errors when you don't pass an options object and if the `baseUrl` or `out` properties are undefined.
+gulp-rjs-optimizer will emit errors when you don't pass an options object and if the `baseUrl` or `out` properties are undefined.
 
 The require.js optimizer itself might also emit errors; unfortunately there's no way of catching them elegantly at the moment.
 

@@ -6,7 +6,7 @@ var grjs   = require('../'),
 require('mocha');
 
 
-describe('gulp-requirejs', function() {
+describe('gulp-rjs-optimizer', function() {
 
     describe('simple AMD file', function() {
 
